@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  c66
+//  c++
 //
 //  Created by jack on 2018/1/10.
 //  Copyright © 2018年 jack. All rights reserved.
@@ -13,3 +13,4 @@ int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
     return 0;
 }
+
