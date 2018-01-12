@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #define Pi 3.1415926;
-int main(int argc, const char * argv[]) {
+int main2(int argc, const char * argv[]) {
     // insert code here...
 
     cout<<Pi;

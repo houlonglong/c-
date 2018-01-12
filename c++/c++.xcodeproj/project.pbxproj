@@ -10,6 +10,7 @@
 		048F54122006120C00E23D4B /* sizeof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 048F54112006120C00E23D4B /* sizeof.cpp */; };
 		048F541A2006177400E23D4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 048F54002006093E00E23D4B /* main.cpp */; };
 		048F54242006193200E23D4B /* constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 048F54222006193200E23D4B /* constant.cpp */; };
+		04AABCB92008A41F0075F39F /* variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04AABCB72008A41F0075F39F /* variable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,8 @@
 		048F54112006120C00E23D4B /* sizeof.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sizeof.cpp; sourceTree = "<group>"; };
 		048F54222006193200E23D4B /* constant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = constant.cpp; path = constant1/constant.cpp; sourceTree = SOURCE_ROOT; };
 		048F54232006193200E23D4B /* constant.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = constant.hpp; path = constant1/constant.hpp; sourceTree = SOURCE_ROOT; };
+		04AABCB72008A41F0075F39F /* variable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = variable.cpp; sourceTree = "<group>"; };
+		04AABCB82008A41F0075F39F /* variable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = variable.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,7 @@
 		048F53F42006093E00E23D4B = {
 			isa = PBXGroup;
 			children = (
+				04AABCBB2008B9650075F39F /* variable */,
 				048F54212006192200E23D4B /* constant */,
 				048F5410200611EE00E23D4B /* sizeof */,
 				048F53FF2006093E00E23D4B /* c++ */,
@@ -85,6 +89,16 @@
 			);
 			name = constant;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		04AABCBB2008B9650075F39F /* variable */ = {
+			isa = PBXGroup;
+			children = (
+				04AABCB82008A41F0075F39F /* variable.hpp */,
+				04AABCB72008A41F0075F39F /* variable.cpp */,
+			);
+			name = variable;
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,7 @@
 				048F54242006193200E23D4B /* constant.cpp in Sources */,
 				048F541A2006177400E23D4B /* main.cpp in Sources */,
 				048F54122006120C00E23D4B /* sizeof.cpp in Sources */,
+				04AABCB92008A41F0075F39F /* variable.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
